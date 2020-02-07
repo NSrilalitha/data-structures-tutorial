@@ -25,7 +25,7 @@ public class BasicStackOperationsProgram {
 			stack.push(3);
 			stack.push(10);
 		} catch(Exception e) {
-			e.printStackTrace();
+			System.out.println(e.getMessage());
 		}
 
 		System.out.println("=============================");
@@ -37,7 +37,7 @@ public class BasicStackOperationsProgram {
 		try {
 			System.out.println("top element of the stack is "+stack.peek());
 		} catch(Exception e) {
-			e.printStackTrace();
+			System.out.println(e.getMessage());
 		}
 		
 		System.out.println("===========================");
@@ -67,7 +67,7 @@ public class BasicStackOperationsProgram {
 			stack.pop();
 			stack.pop();
 		} catch(Exception e) {
-			e.printStackTrace();
+			System.out.println(e.getMessage());
 		} 
 		
 		System.out.println("===============================");
