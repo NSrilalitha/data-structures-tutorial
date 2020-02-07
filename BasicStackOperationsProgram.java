@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Implementing stack using array i.e., stack with bounded capacity.
  * 
- * @author M1035859
+ * @author Srilalitha
  *
  */
 public class BasicStackOperationsProgram {
